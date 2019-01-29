@@ -1,0 +1,20 @@
+{
+  "name": "fetch",
+  "version": "1.0.0",
+  "description": "a (hopefully) simple implementation of fetch.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "tdd": "ava --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swashedbuckles/fetch.git"
+  },
+  "author": "Tom Joseph",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swashedbuckles/fetch/issues"
+  },
+  "homepage": "https://github.com/swashedbuckles/fetch#readme"
+}
