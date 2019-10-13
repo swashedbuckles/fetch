@@ -4,8 +4,8 @@
   "description": "a (hopefully) simple implementation of fetch.",
   "main": "index.js",
   "scripts": {
-    "test": "ava",
-    "tdd": "ava --watch"
+    "test": "mocha",
+    "tdd": "mocha --watch"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/swashedbuckles/fetch/issues"
   },
-  "homepage": "https://github.com/swashedbuckles/fetch#readme"
+  "homepage": "https://github.com/swashedbuckles/fetch#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.1",
+    "sinon": "^7.5.0"
+  }
 }
