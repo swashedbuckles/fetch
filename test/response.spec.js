@@ -17,8 +17,8 @@ describe('Response', () => {
   it('can define a custom statusText for the response');
   it('can define custom headers for the response');
 
-  it('has a bunch of readonly properties', t => {
-    const r = new Response;
+  it('has a bunch of readonly properties', () => {
+    const r = new Response();
     const props = [
       'headers',
       'ok',
