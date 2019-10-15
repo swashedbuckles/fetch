@@ -1,3 +1,5 @@
+// https://fetch.spec.whatwg.org/#concept-method
+
 import Request from './lib/request';
 import response from './lib/response';
 
